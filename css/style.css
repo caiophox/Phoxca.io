@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	--white: #fffcf2;
+	--lightGray: #ccc5b9;
+	--gray: #403d39;
+	--darkGray: #252422;
+	--black: #1f1f1e;
+	--orange: #eb5e28;
+}
+
+body {
+	box-sizing: border-box;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	background-color: var(--darkGray);
+}
+
+.header {
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+	height: 3.5rem;
+	align-items: center;
+	padding-left: 1rem;
+	border-bottom: 0.1rem solid var(--gray);
+	background-color: var(--darkGray);
+	color: var(--lightGray);
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	color: var(--orange);
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.titleAccent {
+	color: var(--lightGray);
+	font-weight: normal;
+	font-size: 1.5rem;
+}
+
+.content {
+	display: flex;
+	box-sizing: border-box;
+	background-color: var(--black);
+	flex-grow: 1;
+}
+
+.menu {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	background-color: var(--darkGray);
+	border-right: 0.1rem solid var(--gray);
+	height: 100%;
+	min-width: 3.5rem;
+}
+
+.navBarImages {
+	width: 2rem;
+	margin: 2rem 0;
+}
+
+.contentMain {
+	box-sizing: border-box;
+	background-color: var(--black);
+	height: 100%;
+	padding: 1rem;
+	color: var(--orange);
+}
+
+.card {
+	border-radius: 0.1rem;
+	padding: 1rem;
+	margin: 1rem;
+	background-color: var(--gray);
+	color: var(--orange);
+	font-size: 1.5rem;
+	width: 20rem;
+}
+
+p {
+	color: var(--white);
+	font-size: 1rem;
+	margin-left: 1rem;
+}
