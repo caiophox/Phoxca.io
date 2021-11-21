@@ -4,9 +4,10 @@
 	-webkit-font-smoothing: antialiased;
 	--white: #fffcf2;
 	--lightGray: #ccc5b9;
+	--mediumGray: #918a7e80;
 	--gray: #403d39;
 	--darkGray: #252422;
-	--black: #1f1f1e;
+	--black: #0f0f0e;
 	--orange: #eb5e28;
 }
 
@@ -82,10 +83,11 @@ h1 {
 	border-radius: 0.1rem;
 	padding: 1rem;
 	margin: 1rem;
-	background-color: var(--gray);
+	background-color: var(--mediumGray);
 	color: var(--orange);
 	font-size: 1.5rem;
 	width: 20rem;
+	box-shadow: 0.2rem 0.2rem #b7b3a1f0;
 }
 
 p {
