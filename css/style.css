@@ -28,7 +28,7 @@ body {
 	width: 100%;
 	height: 3.5rem;
 	align-items: center;
-	padding-left: 1rem;
+	padding-left: 0, 2rem;
 	border-bottom: 0.1rem solid var(--gray);
 	background-color: var(--darkGray);
 	color: var(--lightGray);
@@ -94,6 +94,43 @@ h1 {
 	font-size: 1.5rem;
 	width: 20rem;
 	box-shadow: 0.2rem 0.2rem #b7b3a1f0;
+}
+
+/* .hamburger {
+	background: transparent;
+	border-radius: 1rem;
+	border: 1px solid;
+} */
+
+.buttonOne {
+	background: transparent;
+	border: transparent;
+	fill: var(--lightGray);
+}
+.buttonOne input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+/* animation for button 1 */
+.buttonOne .svgHam {
+	transition: transform 300ms ease-out 300ms, rotate 300ms, width 0s 300ms;
+	transform-origin: center;
+}
+.buttonOne:active .svgHam {
+	transition: transform 300ms ease-in, rotate 300ms 300ms, width 0s 300ms;
+}
+.buttonOne:active .hamOneTop {
+	transform: translateY(26%);
+	rotate: 45deg;
+}
+.buttonOne:active .hamOneMid {
+	width: 0%;
+}
+
+.buttonOne:active .hamOneBot {
+	transform: translateY(-26%);
+	rotate: -45deg;
 }
 
 p {
